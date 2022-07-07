@@ -2,43 +2,7 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata"
       xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <classAccesses>
-        <apexClass>AccOps</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountAutomationsFail</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountAutomationsFailTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountOperations</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountOperationsTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ChangePasswordController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>MySampleApexClass</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>MySampleApexClassTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>NewApexClass</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>NewApexClassTest</apexClass>
+        <apexClass>TestMerge</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -46,27 +10,7 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>SachinApexClassTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>SachinOperation</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>SachinOperationsTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>Sample</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>SampleTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>TemperatureConverter</apexClass>
+        <apexClass>ctx_runCaseLogicTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -74,11 +18,7 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>TestMerge</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>TestMergeTest</apexClass>
+        <apexClass>MySampleApexClass</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -86,15 +26,7 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>ctx_AccountAutomationsTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ctx_runAccountLogic</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ctx_runAccountLogicTest</apexClass>
+        <apexClass>NewApexClass</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -102,7 +34,75 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>ctx_runCaseLogicTest</apexClass>
+        <apexClass>AccountAutomationsFail</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SachinApexClassTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NewApexClassTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TemperatureConverter</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ctx_runAccountLogic</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SachinOperation</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SampleTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SachinOperationsTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ctx_runAccountLogicTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Sample</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccountAutomationsFailTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccountOperationsTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccOps</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MySampleApexClassTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TestMergeTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccountOperations</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ChangePasswordController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ctx_AccountAutomationsTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
@@ -114,6 +114,31 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.sachin_accfld__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>X223TestObj__c.X223TestFL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>semanticconf__c.semanticconffl__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SemConf__c.semconffl__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>v54customobj__c.v54customfield__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Sachin_CustObj__c.sachin_cf__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -136,150 +161,125 @@
         <field>SM2Obj2__c.SM2Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Sachin_CustObj__c.sachin_cf__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SemConf__c.semconffl__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>X223TestObj__c.X223TestFL__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>semanticconf__c.semanticconffl__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>v54customobj__c.v54customfield__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    <layoutAssignments>
+        <layout>Test_custobj__c-Test_custobj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SET_CO1__c-SET_CO1 Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>ABC_Obj3__c-ABC Obj3 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ABC_Obj_2__c-ABC Obj 2 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ABC_Obj__c-ABC Obj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ATest1__c-ATest1 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Bobj__c-Bobj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CFS_CustObj1__c-CFS_CustObj1 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CFS_CustObj2__c-CFS_CustObj2 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>DXCustObj__c-DXCustObj Layout</layout>
+        <layout>trcustobj__c-trcustobj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Dev1CutObj__c-Dev1CutObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Dev2CutObj__c-Dev2CutObj Layout</layout>
+        <layout>CFS_CustObj2__c-CFS_CustObj2 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>DevCutObj__c-DevCutObj Layout</layout>
+        <layout>SM1Obj1__c-SM1Obj1 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Fullobj__c-Fullobj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>IS_Cust2Obj__c-IS-Cust2Obj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>IS_CustObj1__c-IS-CustObj1 Layout</layout>
+        <layout>cobj__c-cobj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NM_CustObj__c-NM_CustObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TS1CustObj__c-TS1CustObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NM_CustObj__c-NM_CustObj Layout</layout>
         <recordType>NM_CustObj__c.NM_RecordType</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SB13CustObj__c-SB13CustObj Layout</layout>
+        <layout>Fullobj__c-Fullobj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SB14CustObj__c-SB14CustObj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SB15CustObj__c-SB15CustObj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SET_CO1__c-SET_CO1 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SET_CO2__c-SET_CO2 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SM1Obj1__c-SM1Obj1 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SM2Obj2__c-SM2Obj2 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Sachin_CustObj__c-Sachin_CustObj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SemConf__c-SemConf Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>TS1CustObj__c-TS1CustObj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>TestConfEdit__c-TestConfEdit Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Test_custobj__c-Test_custobj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>X223TestObj__c-223TestObj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>cobj__c-cobj Layout</layout>
+        <layout>DXCustObj__c-DXCustObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>semanticconf__c-semanticconf Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>trcustobj__c-trcustobj Layout</layout>
+        <layout>DevCutObj__c-DevCutObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>v54customobj__c-v54customobj Layout</layout>
+        <layout>SB14CustObj__c-SB14CustObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IS_Cust2Obj__c-IS-Cust2Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SET_CO2__c-SET_CO2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ABC_Obj__c-ABC Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CFS_CustObj1__c-CFS_CustObj1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IS_CustObj1__c-IS-CustObj1 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>v54customobj__c-v54customobj Layout</layout>
         <recordType>v54customobj__c.v54RecordType</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Sachin_CustObj__c-Sachin_CustObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ATest1__c-ATest1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X223TestObj__c-223TestObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SM2Obj2__c-SM2Obj2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SemConf__c-SemConf Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Dev2CutObj__c-Dev2CutObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestConfEdit__c-TestConfEdit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Bobj__c-Bobj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>versiontesting__c-versiontesting Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SB13CustObj__c-SB13CustObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ABC_Obj_2__c-ABC Obj 2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SB15CustObj__c-SB15CustObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>v54customobj__c-v54customobj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <objectPermissions>
         <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>CFS_CustObj1__c</object>
-        <viewAllRecords>true</viewAllRecords>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -291,15 +291,19 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <pageAccesses>
+        <apexPage>IS_VF3</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>IS_VF1</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>IS_VF2</apexPage>
+        <apexPage>stestconf</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>IS_VF3</apexPage>
+        <apexPage>IS_VF2</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
@@ -308,10 +312,6 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>changewinpage</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>stestconf</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
@@ -331,91 +331,7 @@
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ActivitiesAccess</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AddDirectMessageMembers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ApexRestServices</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ApiEnabled</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AssignTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterEditOwnPost</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterFileLink</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterInternalUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterInviteExternalUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterOwnGroups</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ContentWorkspaces</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ConvertLeads</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>CreateCustomizeFilters</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>CreateCustomizeReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>CreateTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>DistributeFromPersWksp</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditBrandTemplates</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditEvent</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditHtmlTemplates</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditOppLineItemUnitPrice</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditPublicDocuments</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditPublicTemplates</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -423,19 +339,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>EditTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EmailMass</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EmailSingle</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EnableCommunityAppLauncher</name>
+        <name>EditPublicDocuments</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -443,35 +347,15 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ExportReport</name>
+        <name>EmailSingle</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ImportLeads</name>
+        <name>EditTopics</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ImportPersonal</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>LightningConsoleAllowedForUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>LightningExperienceUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ListEmailSend</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>MassInlineEdit</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>OverrideForecasts</name>
+        <name>ApiEnabled</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -479,19 +363,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>RunReports</name>
+        <name>LightningExperienceUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>SelectFilesFromSalesforce</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SendSitRequests</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ShowCompanyNameAsUserBadge</name>
+        <name>EditEvent</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -499,11 +375,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>TransactionalEmailSend</name>
+        <name>ViewHelpLink</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>UseWebLink</name>
+        <name>EditBrandTemplates</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -511,14 +387,138 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewHelpLink</name>
+        <name>MassInlineEdit</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewRoles</name>
+        <name>TransactionalEmailSend</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ExportReport</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterOwnGroups</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditHtmlTemplates</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ShowCompanyNameAsUserBadge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateCustomizeReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterInviteExternalUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ListEmailSend</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ActivitiesAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditOppLineItemUnitPrice</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterFileLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ImportPersonal</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AddDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ConvertLeads</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditPublicTemplates</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LightningConsoleAllowedForUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterEditOwnPost</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewSetup</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>OverrideForecasts</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>DistributeFromPersWksp</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SendSitRequests</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SelectFilesFromSalesforce</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ImportLeads</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EnableCommunityAppLauncher</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RunReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApexRestServices</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ContentWorkspaces</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AssignTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UseWebLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterInternalUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EmailMass</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewRoles</name>
     </userPermissions>
 </Profile>
