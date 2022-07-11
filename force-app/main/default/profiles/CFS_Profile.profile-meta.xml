@@ -118,6 +118,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CFS_DstructObj__c.CFS_Field1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>IS_Cust2Obj__c.IS_Cust1Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -178,6 +183,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bobj__c-Bobj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CFS_DstructObj__c-CFS_DstructObj Layout</layout>
+        <recordType>CFS_DstructObj__c.CFS_RT1</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DXCustObj__c-DXCustObj Layout</layout>
@@ -284,6 +293,15 @@
         <object>CFS_CustObj2__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>CFS_DstructObj__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <pageAccesses>
         <apexPage>IS_VF1</apexPage>
         <enabled>false</enabled>
@@ -312,6 +330,11 @@
         <apexPage>v54vftesting</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>CFS_DstructObj__c.CFS_RT1</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>NM_CustObj__c.NM_RecordType</recordType>
@@ -489,10 +512,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>SubmitMacrosAllowed</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>SubscribeToLightningReports</name>
     </userPermissions>
     <userPermissions>
@@ -518,9 +537,5 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewSetup</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewTrustMeasures</name>
     </userPermissions>
 </Profile>
