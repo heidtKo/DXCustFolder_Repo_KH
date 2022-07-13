@@ -140,6 +140,14 @@
         <value>test</value>
     </labels>
     <labels>
+        <fullName>feature_49_label</fullName>
+        <categories>feature 49 label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>feature 49 label</shortDescription>
+        <value>feature 49 label</value>
+    </labels>
+    <labels>
         <fullName>label3</fullName>
         <language>en_US</language>
         <protected>false</protected>
