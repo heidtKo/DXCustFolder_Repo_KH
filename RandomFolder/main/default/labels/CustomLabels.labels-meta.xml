@@ -148,6 +148,14 @@
         <value>feature 49 label</value>
     </labels>
     <labels>
+        <fullName>feature_50_label</fullName>
+        <categories>feature 50 label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>feature 50 label</shortDescription>
+        <value>feature 50 label</value>
+    </labels>
+    <labels>
         <fullName>label3</fullName>
         <language>en_US</language>
         <protected>false</protected>
