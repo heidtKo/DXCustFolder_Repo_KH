@@ -23,6 +23,14 @@
         <value>CFS_Label1</value>
     </labels>
     <labels>
+        <fullName>CFS_custom_label</fullName>
+        <categories>CFS custom label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CFS custom label</shortDescription>
+        <value>CFS custom label</value>
+    </labels>
+    <labels>
         <fullName>Cookies</fullName>
         <language>en_US</language>
         <protected>false</protected>
