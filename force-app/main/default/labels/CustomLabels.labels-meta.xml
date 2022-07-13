@@ -8,4 +8,11 @@
         <shortDescription>CFS_Label1</shortDescription>
         <value>CFS_Label1</value>
     </labels>
+    <labels>
+        <fullName>Autorandom</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Autorandom</shortDescription>
+        <value>Autorandom</value>
+    </labels>
 </CustomLabels>
