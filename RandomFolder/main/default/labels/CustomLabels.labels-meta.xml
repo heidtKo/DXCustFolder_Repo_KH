@@ -15,6 +15,13 @@
         <value>AutoResolnCL2 edit</value>
     </labels>
     <labels>
+        <fullName>Autorandom2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Autorandom2</shortDescription>
+        <value>Autorandom2</value>
+    </labels>
+    <labels>
         <fullName>CFS_Label1</fullName>
         <categories>CFS_Label1</categories>
         <language>en_US</language>
