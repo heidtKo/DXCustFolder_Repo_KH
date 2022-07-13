@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>feature_50_label</fullName>
+        <categories>feature 50 label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>feature 50 label</shortDescription>
+        <value>feature 50 label</value>
+    </labels>
+</CustomLabels>
