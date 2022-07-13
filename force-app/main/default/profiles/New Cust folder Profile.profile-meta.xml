@@ -22,6 +22,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>CFSOperations</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ChangePasswordController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -110,6 +114,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CustFol_Object__c.testnewCFS__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>IS_Cust2Obj__c.IS_Cust1Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -170,6 +179,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bobj__c-Bobj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustFol_Object__c-CustFol_Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DXCustObj__c-DXCustObj Layout</layout>
@@ -258,6 +270,15 @@
         <layout>versiontesting__c-versiontesting Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>CustFol_Object__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <pageAccesses>
         <apexPage>IS_VF1</apexPage>
         <enabled>false</enabled>
