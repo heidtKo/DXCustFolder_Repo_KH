@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AutoResolnCL1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AutoResolnCL1</shortDescription>
+        <value>AutoResolnCL1</value>
+    </labels>
+    <labels>
+        <fullName>AutoResolnCL2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AutoResolnCL2</shortDescription>
+        <value>AutoResolnCL2 edit</value>
+    </labels>
+    <labels>
+        <fullName>CFS_Label1</fullName>
+        <categories>CFS_Label1</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CFS_Label1</shortDescription>
+        <value>CFS_Label1</value>
+    </labels>
+    <labels>
+        <fullName>Cookies</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cookies</shortDescription>
+        <value>10</value>
+    </labels>
+    <labels>
+        <fullName>IS_CustLabel2</fullName>
+        <categories>Edited</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IS CustLabel2</shortDescription>
+        <value>Test Value2 - Edited</value>
+    </labels>
+    <labels>
+        <fullName>SM_label3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM label3</shortDescription>
+        <value>sm</value>
+    </labels>
+    <labels>
+        <fullName>SM_label4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM label4</shortDescription>
+        <value>label4</value>
+    </labels>
+    <labels>
+        <fullName>SM_label5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM label5</shortDescription>
+        <value>sm</value>
+    </labels>
+    <labels>
+        <fullName>SMlabel1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SMlabel1</shortDescription>
+        <value>semantic merge</value>
+    </labels>
+    <labels>
+        <fullName>SachinCP1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SachinCP1</shortDescription>
+        <value>SachinCP1</value>
+    </labels>
+    <labels>
+        <fullName>Sachin_CL1</fullName>
+        <categories>Sachin_CL1</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sachin_CL1</shortDescription>
+        <value>Sachin_CL1 update</value>
+    </labels>
+    <labels>
+        <fullName>Sachin_CL2</fullName>
+        <categories>Sachin_CL2</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sachin_CL2</shortDescription>
+        <value>Sachin_CL2 update</value>
+    </labels>
+    <labels>
+        <fullName>Sachin_CL3</fullName>
+        <categories>Sachin_CL3</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sachin_CL3</shortDescription>
+        <value>Sachin_CL3</value>
+    </labels>
+    <labels>
+        <fullName>Shivangi_customlabel1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Shivangi.customlabel1</shortDescription>
+        <value>Modified and conflict in source org</value>
+    </labels>
+    <labels>
+        <fullName>Smlabel_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Smlabel 2</shortDescription>
+        <value>semantic 2 updated in source org</value>
+    </labels>
+    <labels>
+        <fullName>custom_label2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>custom.label2</shortDescription>
+        <value>testing</value>
+    </labels>
+    <labels>
+        <fullName>custom_label_new1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>custom.label new1</shortDescription>
+        <value>modified and conflict in source org</value>
+    </labels>
+    <labels>
+        <fullName>custom_labels_new2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>custom.label new2</shortDescription>
+        <value>test</value>
+    </labels>
+    <labels>
+        <fullName>label3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>label3</shortDescription>
+        <value>test</value>
+    </labels>
+    <labels>
+        <fullName>label_with_chars</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>label with chars</shortDescription>
+        <value>!@!#@!#</value>
+    </labels>
+    <labels>
+        <fullName>testlabel1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>testlabel1</shortDescription>
+        <value>testlabel1</value>
+    </labels>
+    <labels>
+        <fullName>testlabel2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>testlabel2</shortDescription>
+        <value>testlabel2 modified in source org for US3</value>
+    </labels>
+    <labels>
+        <fullName>testlabel3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>testlabel3</shortDescription>
+        <value>testlabel3 changed for resolve for US3</value>
+    </labels>
+    <labels>
+        <fullName>v54customlabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>v54customlabel</shortDescription>
+        <value>v54customlabel</value>
+    </labels>
+</CustomLabels>
