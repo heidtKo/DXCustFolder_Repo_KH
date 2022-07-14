@@ -8,4 +8,12 @@
         <shortDescription>CFS_Label1</shortDescription>
         <value>CFS_Label1</value>
     </labels>
+    <labels>
+        <fullName>testCFS_label</fullName>
+        <categories>testCFS label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>testCFS label</shortDescription>
+        <value>testCFS label</value>
+    </labels>
 </CustomLabels>
