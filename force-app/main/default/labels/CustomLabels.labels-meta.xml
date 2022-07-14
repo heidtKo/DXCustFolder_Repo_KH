@@ -7,13 +7,19 @@
         <shortDescription>Autorandom</shortDescription>
         <value>Autorandom</value>
     </labels>
-     <labels>
+    <labels>
         <fullName>Autorandom2</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Autorandom2</shortDescription>
         <value>Autorandom2</value>
     </labels>
-
-    
+    <labels>
+        <fullName>testCFS_label</fullName>
+        <categories>testCFS label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>testCFS label</shortDescription>
+        <value>testCFS label</value>
+    </labels>
 </CustomLabels>
