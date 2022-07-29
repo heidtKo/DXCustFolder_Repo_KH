@@ -8,7 +8,7 @@
             <type>owner</type>
         </recipients>
         <senderType>CurrentUser</senderType>
-        <template>unfiled$public/ContactFollowUpSAMPLE</template>
+        <template>unfiled$public/SUPPORTCaseResponsewithSolutionSAMPLE</template>
     </alerts>
     <fieldUpdates>
         <fullName>FallCFS_fieldupdate</fullName>
