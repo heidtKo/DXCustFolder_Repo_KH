@@ -9,6 +9,13 @@
         <value>CFS_Label1</value>
     </labels>
     <labels>
+        <fullName>FallCL1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FallCL1</shortDescription>
+        <value>FallCL1</value>
+    </labels>
+    <labels>
         <fullName>testCFS_label</fullName>
         <categories>testCFS label</categories>
         <language>en_US</language>
