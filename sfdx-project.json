@@ -6,7 +6,7 @@
     },
     {
       "path": "RandomFolder",
-      "default": true
+      "default": false
     }
   ],
   "name": "DXCustFolder_Repo",
