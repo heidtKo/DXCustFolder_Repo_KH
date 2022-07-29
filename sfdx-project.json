@@ -2,11 +2,11 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": false
+      "default": true
     },
     {
       "path": "RandomFolder",
-      "default": true
+      "default": false
     }
   ],
   "name": "DXCustFolder_Repo",
