@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
+        <fullName>Autorandom</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Autorandom</shortDescription>
+        <value>Autorandom</value>
+    </labels>
+    <labels>
         <fullName>CFS_Label1</fullName>
         <categories>CFS_Label1</categories>
         <language>en_US</language>
@@ -9,10 +16,10 @@
         <value>CFS_Label1</value>
     </labels>
     <labels>
-        <fullName>Autorandom</fullName>
+        <fullName>FallCL1</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>Autorandom</shortDescription>
-        <value>Autorandom</value>
+        <shortDescription>FallCL1</shortDescription>
+        <value>FallCL1</value>
     </labels>
 </CustomLabels>
