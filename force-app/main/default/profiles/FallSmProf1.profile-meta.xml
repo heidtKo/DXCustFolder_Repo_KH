@@ -7351,12 +7351,6 @@
         <layout>FLSOLSObj__c-FLSOLSObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>FallCFS_custobj1__c-FallCFS_custobj1 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FallCFS_custobj__c-FallCFS_custobj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>FallCFS_custobj__c-FallCFS_NewLayout</layout>
         <recordType>FallCFS_custobj__c.FallCFS_RT</recordType>
     </layoutAssignments>
@@ -7446,20 +7440,20 @@
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>FallCFS_custobj1__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>FallCFS_custobj__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -7659,6 +7653,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>SubmitMacrosAllowed</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>SubscribeToLightningReports</name>
     </userPermissions>
     <userPermissions>
@@ -7684,5 +7682,9 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewSetup</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewTrustMeasures</name>
     </userPermissions>
 </Profile>
