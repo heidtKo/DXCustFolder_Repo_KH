@@ -7221,14 +7221,7 @@
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>FallCFS_CP1</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>FallCFS_CP2</name>
-    </customPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.TestCPD__c</field>
