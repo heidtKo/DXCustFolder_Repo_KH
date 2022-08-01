@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Autorandom</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Autorandom</shortDescription>
+        <value>Autorandom</value>
+    </labels>
+     <labels>
+        <fullName>Autorandom2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Autorandom2</shortDescription>
+        <value>Autorandom2</value>
+    </labels>
+
+    
+</CustomLabels>
