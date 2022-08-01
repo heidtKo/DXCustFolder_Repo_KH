@@ -37,9 +37,11 @@ public class KompalAcc {
         return a;
     }
     public static Account setDefaultShippingAddress5(Account a){
-        a.shippingstreet = 'Basauri, 6'; 
+        if(!Test.isRunningTest()){
+             a.shippingstreet = 'Basauri, 6'; 
         a.shippingstate = 'Madrid';
         a.shippingpostalcode ='28023';
+        }
         return a;
     }
 }

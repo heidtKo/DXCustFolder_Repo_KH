@@ -37,7 +37,7 @@ public class KompalAccTest {
         acc = KompalAcc.setDefaultShippingAddress2(acc);
         System.assertEquals('Basauri, 6', acc.ShippingStreet, 'Default ShippingStreet is Basauri, 6');
         System.assertEquals('Madrid', acc.ShippingState, 'Default Shippingtate is Madrid');
-        System.assertEquals('280234', acc.ShippingPostalCode, 'Default ShippingPostalCode is 28023');
+        System.assertEquals('28023', acc.ShippingPostalCode, 'Default ShippingPostalCode is 28023');
     }
     
      @isTest static void testDefaultShippingAddress3(){
@@ -46,7 +46,7 @@ public class KompalAccTest {
         acc = KompalAcc.setDefaultShippingAddress3(acc);
         System.assertEquals('Basauri, 6', acc.ShippingStreet, 'Default ShippingStreet is Basauri, 6');
         System.assertEquals('Madrid', acc.ShippingState, 'Default Shippingtate is Madrid');
-        System.assertEquals('280234', acc.ShippingPostalCode, 'Default ShippingPostalCode is 28023');
+        System.assertEquals('28023', acc.ShippingPostalCode, 'Default ShippingPostalCode is 28023');
     }
      @isTest static void testDefaultShippingAddress4(){
         Account acc = new Account(Name = 'My Test Account');
@@ -54,6 +54,6 @@ public class KompalAccTest {
         acc = KompalAcc.setDefaultShippingAddress4(acc);
         System.assertEquals('Basauri, 6', acc.ShippingStreet, 'Default ShippingStreet is Basauri, 6');
         System.assertEquals('Madrid', acc.ShippingState, 'Default Shippingtate is Madrid');
-        System.assertEquals('280234', acc.ShippingPostalCode, 'Default ShippingPostalCode is 28023');
+        System.assertEquals('28023', acc.ShippingPostalCode, 'Default ShippingPostalCode is 28023');
     }
 }
