@@ -18,4 +18,30 @@ public class KompalAcc {
         a.shippingpostalcode ='28023';
         return a;
     } 
+     public static Account setDefaultShippingAddress2(Account a){
+        a.shippingstreet = 'Basauri, 6'; 
+        a.shippingstate = 'Madrid';
+        a.shippingpostalcode ='28023';
+        return a;
+    }
+     public static Account setDefaultShippingAddress3(Account a){
+        a.shippingstreet = 'Basauri, 6'; 
+        a.shippingstate = 'Madrid';
+        a.shippingpostalcode ='28023';
+        return a;
+    }
+    public static Account setDefaultShippingAddress4(Account a){
+        a.shippingstreet = 'Basauri, 6'; 
+        a.shippingstate = 'Madrid';
+        a.shippingpostalcode ='28023';
+        return a;
+    }
+    public static Account setDefaultShippingAddress5(Account a){
+        if(!Test.isRunningTest()){
+             a.shippingstreet = 'Basauri, 6'; 
+        a.shippingstate = 'Madrid';
+        a.shippingpostalcode ='28023';
+        }
+        return a;
+    }
 }
