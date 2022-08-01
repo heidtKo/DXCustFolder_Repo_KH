@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>SFDX_cirterion2</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>SFDX_cirterion2</label>
+        <sharedTo>
+            <allCustomerPortalUsers></allCustomerPortalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>notEqual</operation>
+            <value>23</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Shivangi_sharingcrt1</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Shivangi_sharingcrt1</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value>sh</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

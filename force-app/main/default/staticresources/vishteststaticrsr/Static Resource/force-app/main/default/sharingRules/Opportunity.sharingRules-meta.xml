@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>kh_owner_rule_1</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>kh owner rule 1</label>
+        <sharedTo>
+            <allCustomerPortalUsers></allCustomerPortalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>NextStep</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>kh_owner_rule_2</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>testing and mod</description>
+        <label>kh owner rule 2</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>SVP_Customer_Experience</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>IsClosed</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>kh_criteria_rule_2</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>kh criteria rule 2</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <allCustomerPortalUsers></allCustomerPortalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>kh_criteria_rule_3</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>this should be a conflict somewhere</description>
+        <label>kh criteria rule 3</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <role>SVP_Customer_Experience</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

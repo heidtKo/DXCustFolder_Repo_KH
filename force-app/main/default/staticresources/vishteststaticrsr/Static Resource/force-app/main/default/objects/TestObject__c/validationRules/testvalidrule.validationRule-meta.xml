@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>testvalidrule</fullName>
+    <active>true</active>
+    <errorConditionFormula>field1__c  &lt;&gt; NULL</errorConditionFormula>
+    <errorMessage>field should not be null</errorMessage>
+</ValidationRule>
