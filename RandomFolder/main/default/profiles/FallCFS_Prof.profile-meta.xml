@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
-      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <classAccesses>
         <apexClass>AccOps</apexClass>
         <enabled>false</enabled>
@@ -7222,14 +7221,7 @@
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>FallCFS_CP1</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>FallCFS_CP2</name>
-    </customPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.TestCPD__c</field>
@@ -7461,7 +7453,7 @@
     <layoutAssignments>
         <layout>versiontesting__c-versiontesting Layout</layout>
     </layoutAssignments>
-    <loginHours n1:nil="true" />
+    <loginHours n1:nil="true"></loginHours>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>CFS_DstructObj__c.CFS_RT1</recordType>
