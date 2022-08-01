@@ -4,9 +4,9 @@ public class Fall_AccountAutomations {
     
     Public static Account setDefaultDescription(Account a){
         If (a.Description != null) return a;
-        Else {
+        Else {// in git int env
             a.Description = 'Default description';
-            return a;
+            return a;// in git int env
         }
     }
     public static Account setDefaultBillingAddress(Account a){
