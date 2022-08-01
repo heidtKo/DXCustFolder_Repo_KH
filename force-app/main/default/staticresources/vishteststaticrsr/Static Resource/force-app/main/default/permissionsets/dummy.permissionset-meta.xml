@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TestObject__c.field2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>dummy</label>
+    <license>Service Cloud</license>
+    <recordTypeVisibilities>
+        <recordType>TestObject__c.testrecordtype</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

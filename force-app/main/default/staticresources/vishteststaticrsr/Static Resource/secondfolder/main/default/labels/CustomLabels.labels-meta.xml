@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ctx_hello_world</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ctx hello world</shortDescription>
+        <value>ctx hello world</value>
+    </labels>
+    <labels>
+        <fullName>ctx_labelnew</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ctx_labelnew</shortDescription>
+        <value>test</value>
+    </labels>
+</CustomLabels>
