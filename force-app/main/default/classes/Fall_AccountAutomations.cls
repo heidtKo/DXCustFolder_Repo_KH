@@ -2,11 +2,12 @@ public class Fall_AccountAutomations {
     
     //I'm in the mood for a conflict
     
-    Public static Account setDefaultDescription(Account a){
+     Public static Account setDefaultDescription(Account a){
         If (a.Description != null) return a;
         Else {
+            // in git int env
             a.Description = 'Default description';
-            return a;
+            return a;// in git int env
         }
     }
     public static Account setDefaultBillingAddress(Account a){
