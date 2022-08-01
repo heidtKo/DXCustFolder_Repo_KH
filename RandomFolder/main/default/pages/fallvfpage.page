@@ -1,7 +1,7 @@
 <apex:page >
   <!-- Begin Default Content REMOVE THIS -->
   <h1>Congratulations</h1>
-  // Dev 2 org
+  // in git int env
   This is your new Page
   <!-- End Default Content REMOVE THIS -->
 </apex:page>
