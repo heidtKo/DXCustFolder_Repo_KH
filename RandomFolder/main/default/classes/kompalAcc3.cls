@@ -1,6 +1,6 @@
 public with sharing class kompalAcc3 {
  public kompalAcc3() {
-        System.debug('I am constructed!');
+        System.debug('I am constructed! from new Us');
     }
 
     Public static Account caseLogicMethodOne(Account a){
