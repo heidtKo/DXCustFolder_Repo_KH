@@ -7118,6 +7118,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>KompalAcc</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>MySampleApexClass</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7462,6 +7466,10 @@
         <layout>versiontesting__c-versiontesting Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
+    <loginIpRanges>
+        <endAddress>255.255.255.255</endAddress>
+        <startAddress>0.0.0.0</startAddress>
+    </loginIpRanges>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>CFS_DstructObj__c.CFS_RT1</recordType>
@@ -7685,4 +7693,3 @@
         <name>ViewSetup</name>
     </userPermissions>
 </Profile>
-<!--dev@copado.com-->
