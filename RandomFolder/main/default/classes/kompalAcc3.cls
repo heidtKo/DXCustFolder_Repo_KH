@@ -1,6 +1,7 @@
 public with sharing class kompalAcc3 {
  public kompalAcc3() {
         System.debug('I am constructed! from new Us');
+        System.debug('I am constructed! from new Us when re-create promotion branch');
     }
 
     Public static Account caseLogicMethodOne(Account a){
