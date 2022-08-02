@@ -42,6 +42,7 @@ public class KompalAcc {
         a.shippingstate = 'Madrid';
         a.shippingpostalcode ='28023';
         }
+        // new line
         return a;
     }
 }
