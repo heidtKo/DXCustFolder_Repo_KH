@@ -3192,14 +3192,7 @@
         <apexClass>BulkClass1356Test</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>BulkClass1357</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BulkClass1357Test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
+    
     <classAccesses>
         <apexClass>BulkClass1358</apexClass>
         <enabled>false</enabled>
