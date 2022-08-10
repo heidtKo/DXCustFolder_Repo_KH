@@ -1,18 +1,18 @@
-@IsTest
-private class SampleClassTest {
+@Is{!Environment.AccountName}
+private class SampleClass{!Environment.AccountName} {
     
-    @IsTest
-    private static void getStringDataTest() {
+    @Is{!Environment.AccountName}
+    private static void getStringData{!Environment.AccountName}() {
         SampleClass.getStringData();
     }
     
-    @IsTest
-    private static void getBooleanDataTest() {
+    @Is{!Environment.AccountName}
+    private static void getBooleanData{!Environment.AccountName}() {
         SampleClass.getBooleanData();
     }
     
-    @IsTest
-    private static void getIntegerDataTest() {
+    @Is{!Environment.AccountName}
+    private static void getIntegerData{!Environment.AccountName}() {
         SampleClass.getIntegerData();
     }
 }
