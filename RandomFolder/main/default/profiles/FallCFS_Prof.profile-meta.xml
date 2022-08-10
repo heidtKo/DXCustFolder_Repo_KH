@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
-      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <classAccesses>
         <apexClass>AccOps</apexClass>
         <enabled>false</enabled>
@@ -3193,14 +3192,7 @@
         <apexClass>BulkClass1356Test</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>BulkClass1357</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BulkClass1357Test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
+    
     <classAccesses>
         <apexClass>BulkClass1358</apexClass>
         <enabled>false</enabled>
@@ -7461,7 +7453,7 @@
     <layoutAssignments>
         <layout>versiontesting__c-versiontesting Layout</layout>
     </layoutAssignments>
-    <loginHours n1:nil="true" />
+    <loginHours n1:nil="true"></loginHours>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>CFS_DstructObj__c.CFS_RT1</recordType>
@@ -7684,5 +7676,4 @@
         <enabled>true</enabled>
         <name>ViewSetup</name>
     </userPermissions>
-</Profile>
-<!--dev@copado.com-->
+</Profile><!--dev@copado.com-->
