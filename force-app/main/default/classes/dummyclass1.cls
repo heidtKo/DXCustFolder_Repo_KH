@@ -1,5 +1,5 @@
-public with sharing class dummyclass {
-    public dummyclass() {
-        public dummyclass(){ integer i = 0; }
+public with sharing class dummyclass1 {
+    public dummyclass1() {
+        public dummyclass1(){ integer i = 0; }
     }
 }
