@@ -1,0 +1,1 @@
+public class sachinABC { public sachinABC(){ integer i = 0; } }

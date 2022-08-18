@@ -1,0 +1,1 @@
+@is{!Environment.AccountName} public class sachinABC{!Environment.AccountName} { @is{!Environment.AccountName} static void my{!Environment.AccountName}() { sachinABC tp = new sachinABC(); system.assert(true);Integer a = 0/0;}}
