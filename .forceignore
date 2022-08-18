@@ -13,3 +13,7 @@ package.xml
 
 # Sh exclude
 **/executableFiles/**
+
+# Ignore files
+.forceignore
+.gitignore
