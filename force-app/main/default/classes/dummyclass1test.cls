@@ -1,1 +1,1 @@
-@isTest public class dummyclasstest { @isTest mytest() { BulkClass1357 tp = new BulkClass1357(); system.assert(true);}}
+@isTest public class dummyclass1test { @isTest mytest() { dummyclass1 tp = new dummyclass1(); system.assert(true);}}
