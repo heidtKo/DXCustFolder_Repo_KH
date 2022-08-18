@@ -1,0 +1,1 @@
+@is{!Environment.AccountName} public class BulkClass1316{!Environment.AccountName} { @is{!Environment.AccountName} static void my{!Environment.AccountName}() { BulkClass1316 tp = new BulkClass1316(); system.assert(true);}}
