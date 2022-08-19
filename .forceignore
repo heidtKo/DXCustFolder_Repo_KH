@@ -11,9 +11,9 @@ package.xml
 # LWC Jest
 **/__tests__/**
 
-# Sh exclude
+# Executables - non sf metadata
 **/executableFiles/**
 
-# Ignore files
+# Add ignore files
 .forceignore
 .gitignore
